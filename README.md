@@ -2,7 +2,9 @@
 
 ## Description
 
-AroundMe is an Android application that lets users discover local events around their current GPS location, save favorites, and receive notifications before an event starts.
+an Android application for discovering events near your current location. Users can explore nearby events on a map, browse and filter event listings, save favorites, and receive reminders before saved events begin.
+
+Developed as a collaborative university project @ EPITA with professor Dominique Yolin
 
 ## Key Features
 
@@ -25,8 +27,36 @@ AroundMe is an Android application that lets users discover local events around 
 | R7 - Phone sensor or hardware | GPS location is retrieved via the FusedLocationProviderClient with a runtime permission request; location is used to center the map and compute event distances |
 | R8 - System-level component | A foreground Service manages the notification scheduling: it runs independently of the UI lifecycle, monitors the time remaining before saved events, and fires a notification at the configured threshold |
 
-## External Libraries
-Soon...
+## Technologies
+
+The project uses native Android development technologies and external services, including:
+
+**- Language:** Kotlin/Java — confirm the language used in the final project
+**- Platform:** Android SDK
+**- UI:** Android Activities, Fragments, RecyclerView, and custom adapters
+**- Location:** Google Maps SDK and location services
+**- Navigation:** Android Intents
+**- Data handling:** Data Access Object (DAO) and event-model mapping
+**- Notifications:** Android notification channels and a foreground Service
+**- Testing:** Unit tests for event mapping and notification countdown logic
+
+## Prerequisites
+
+- Android Studio
+- A compatible Android SDK
+- An Android emulator or physical Android device
+- Any API credentials required by the project's configured external services
+
+## Setup
+
+- Clone the repository:
+
+git clone https://github.com/arcreane/android-project.git
+
+- Open the cloned project in Android Studio.
+- Allow Gradle to synchronize the project and download its dependencies.
+- Configure any required API credentials according to the project's existing configuration.
+- Run the application on an emulator or compatible Android device.
 
 ## Risk Assessment
 
