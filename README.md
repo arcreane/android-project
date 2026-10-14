@@ -31,14 +31,14 @@ Developed as a collaborative university project @ EPITA with professor Dominique
 
 The project uses native Android development technologies and external services, including:
 
-**- Language:** Kotlin/Java — confirm the language used in the final project
-**- Platform:** Android SDK
-**- UI:** Android Activities, Fragments, RecyclerView, and custom adapters
-**- Location:** Google Maps SDK and location services
-**- Navigation:** Android Intents
-**- Data handling:** Data Access Object (DAO) and event-model mapping
-**- Notifications:** Android notification channels and a foreground Service
-**- Testing:** Unit tests for event mapping and notification countdown logic
+- Language: Kotlin/Java — confirm the language used in the final project
+- Platform: Android SDK
+- UI: Android Activities, Fragments, RecyclerView, and custom adapters
+- Location: Google Maps SDK and location services
+- Navigation: Android Intents
+- Data handling: Data Access Object (DAO) and event-model mapping
+- Notifications: Android notification channels and a foreground Service
+- Testing: Unit tests for event mapping and notification countdown logic
 
 ## Prerequisites
 
