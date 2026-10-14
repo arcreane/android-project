@@ -1,4 +1,4 @@
-# Project Pitch: AroundMe
+# AroundMe | ANDROID PROJECT
 
 ## Description
 
